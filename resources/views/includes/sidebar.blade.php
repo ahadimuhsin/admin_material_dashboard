@@ -12,7 +12,7 @@
     </div>
     <div class="logo logo-mini">
         <a href="http://www.creative-tim.com" class="simple-text">
-            Ct
+            CT
         </a>
     </div>
     <div class="sidebar-wrapper">

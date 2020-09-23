@@ -37,8 +37,8 @@
 <!-- Material Dashboard javascript methods -->
 <script src="{{ url('assets/js/material-dashboard.js') }}"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
-{{-- <script src="../assets/js/demo.js"></script> --}}
-<script type="text/javascript">
+<script src="{{ url('assets/js/demo.js') }}"></script>
+{{-- <script type="text/javascript">
     $(document).ready(function() {
 
         // Javascript method's body can be found in assets/js/demos.js
@@ -46,4 +46,14 @@
 
         demo.initVectorMap();
     });
+</script> --}}
+<script>
+$().ready(function() {
+    demo.checkFullPageBackgroundImage();
+
+    setTimeout(function() {
+        // after 1000 ms we add the class animated to the login/register card
+        $('.card').removeClass('card-hidden');
+    }, 700)
+});
 </script>
